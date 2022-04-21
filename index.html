@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-success text-center my-5">My Booklist</h1>
+    <div class="text-center">
+        <label class="" for="title">Book Title</label> <br>
+        <input style="width: 30%;" id="title" type="text"> <br> <br>
+        <label for="author">Author</label> <br>
+        <input style="width: 30%;" id="author" type="text"> <br> <br>
+        <label for="year">Year</label> <br>
+        <input style="width: 30%;" id="year" type="text"> <br> <br> <br>
+        <input style="width: 15%;" class="btn btn-warning" type="submit" value="Add book">
+    </div>
+
+    <table class="table table-stripped mt-5 text-center">
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody id="booklist">
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
